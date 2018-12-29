@@ -70,7 +70,7 @@ const store = createStoreWithFirebase(
   //   reactReduxFirebase(firebase),
   //   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   // )
-  compose(reactReduxFirebase(firebase))
+  reactReduxFirebase(firebase)
 );
 
 export default store;
